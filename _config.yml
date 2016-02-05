@@ -67,4 +67,6 @@ theme: landscape
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
-deploy:type: git  repository: https://github.com/leopardpan/leopardpan.github.io.git  branch: master
+deploy:
+  type: github
+  repo: git@github.com:fenfenzhong92/fenfenzhong92.github.io.git
